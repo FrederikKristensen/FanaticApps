@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Event
 {
-    /*private string*/
+
     internal class Worker
     {
         private const string URI = "http://localhost:51306/api/Events";
