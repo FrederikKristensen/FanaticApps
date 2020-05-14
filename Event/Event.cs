@@ -32,6 +32,10 @@ namespace Event
             EventPostnummer = eventPostnummer;
         }
 
+        public override string ToString()
+        {
+            return $"{nameof(EventNavn)}: {EventNavn}, {nameof(EventTid)}: {EventTid}, {nameof(EventAdresse)}: {EventAdresse}, {nameof(EventPostnummer)}: {EventPostnummer}, {nameof(EventId)}: {EventId}";
+        }
         
     } 
 }
