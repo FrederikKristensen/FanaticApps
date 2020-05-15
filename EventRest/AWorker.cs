@@ -11,7 +11,7 @@ namespace EventRest
 {
     internal class AWorker
     {
-        private const string URl = "http://localhost:58304/api/Event";
+        private const string URl = "http://localhost:63635/api/Events";
         //private const string URl = "";
 
         public async void Start()
